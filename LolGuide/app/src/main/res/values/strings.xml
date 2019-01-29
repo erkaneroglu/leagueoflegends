@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">League of Legends Guide</string>
+    <string name="genişlet">Devamını Oku</string>
+    <string name="daralt">Daralt</string>
+    <string name="size">400</string>
+    <string name="no_data_available">no_data_available</string>
+</resources>

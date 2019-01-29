@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#34495e"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/hero_image_id"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="5dp"
+                        android:background="@color/colorPrimaryDark" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/hero_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/varale"
+                        android:text="Nunu ve Willump"
+                        android:textColor="#ecf0f1"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/hero_long_name_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="3dp"
+                        android:text="Hero Long Name"
+                        android:textColor="#ecf0f1" />
+
+                    <TextView
+                        android:id="@+id/hero_lane_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="3dp"
+                        android:text="Hero Lane"
+                        android:textColor="#ecf0f1" />
+
+                    <TextView
+                        android:id="@+id/hero_nation_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="1dp"
+                        android:text="Hero Nation"
+                        android:textColor="#ecf0f1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="5dp"
+                            android:src="@drawable/riotpoint" />
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="-8dp"
+                            android:layout_marginRight="5dp"
+                            android:src="@drawable/blueessence" />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="5dp"
+                            android:src="@drawable/ic_star_black_24dp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="-5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/rp_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:text="975"
+                            android:textColor="#ecf0f1" />
+
+                        <TextView
+                            android:id="@+id/turuncu_oz_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:text="3600"
+                            android:textColor="#ecf0f1" />
+
+                        <TextView
+                            android:id="@+id/popularity_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:text="3"
+                            android:textColor="#ecf0f1" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+
+                android:layout_marginRight="5dp"
+                android:background="#34495e"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f39c12">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/varale"
+                        android:gravity="center"
+                        android:text="HİKAYE"
+                        android:textColor="#ecf0f1" />
+                </LinearLayout>
+
+                <com.borjabravo.readmoretextview.ReadMoreTextView
+                    android:id="@+id/story_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:fontFamily="@font/varale"
+                    android:text="Sejuani zorluklar içinde doğup, barbarlıkla büyüdü. Başkaları Freljord'un zorlukları altında ezilip yok olurken, Sejuani açlık bir teşviğe, acı güce, soğuk ise zayıfları sürüden ayıklayan bir yardımcıya dönüşene kadar onlara göğüs gerdi. Yaşadığı sıkıntılar ona, sonsuz kış boyunca hayatta kalmak için en az kış kadar soğuk ve acımasız olmak gerektiğini öğretti. Sejuani'ye göre halkı her şeye katlanacak kadar kuvvetli olmalıydı; yoksa hakları ölümdü. Freljord'u ele geçirdiğinde, hayatta kalanların korkulacak bir ulus oluşturacağını biliyordu."
+                    android:textColor="#ecf0f1"
+                    app:colorClickableText="#f39c12"
+                    app:trimCollapsedText="@string/genişlet"
+                    app:trimExpandedText="@string/daralt"
+                    app:trimLines="10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="5dp"
+                android:background="#34495e"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#8e44ad">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="İSTATİSLİKLER"
+                        android:textColor="#ecf0f1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="45dp"
+                            android:layout_marginTop="5dp"
+                            android:text="CAN"
+                            android:textColor="#ecf0f1"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:id="@+id/i_can_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="25dp"
+                            android:text="111,1-1111,1"
+                            android:textColor="#ecf0f1"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="15sp"
+                            android:text="MANA YENİLENMESİ"
+                            android:textColor="#ecf0f1"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:id="@+id/i_mana_yenilenmesi_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30sp"
+                            android:text="11,1-11,1"
+                            android:textColor="#ecf0f1"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30sp"
+                            android:layout_marginTop="15sp"
+                            android:text="SALDIRI HIZI"
+                            android:textColor="#ecf0f1"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:id="@+id/i_saldiri_hizi_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="36sp"
+                            android:text="11,1-11,1"
+                            android:textColor="#ecf0f1"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="5dp"
+                            android:text="CAN YENİLENMESİ"
+                            android:textColor="#ecf0f1"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:id="@+id/i_can_yenilenmesi_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40sp"
+                            android:text="11,1-1,1"
+                            android:textColor="#ecf0f1"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40sp"
+                            android:layout_marginTop="15sp"
+                            android:text="MENZİL"
+                            android:textColor="#ecf0f1"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:id="@+id/i_menzil_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="45sp"
+                            android:text="111"
+                            android:textColor="#ecf0f1"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="45sp"
+                            android:layout_marginTop="15sp"
+                            android:text="ZIRH"
+                            android:textColor="#ecf0f1"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:id="@+id/i_zirh_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30sp"
+                            android:text="11,1-11,1"
+                            android:textColor="#ecf0f1"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="25sp"
+                            android:layout_marginTop="15sp"
+                            android:text="HAREKET HIZI"
+                            android:textColor="#ecf0f1"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:id="@+id/i_haraket_hizi_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="45sp"
+                            android:layout_marginBottom="5dp"
+                            android:text="111"
+                            android:textColor="#ecf0f1"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="45dp"
+                            android:layout_marginTop="5dp"
+                            android:text="MANA"
+                            android:textColor="#ecf0f1"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:id="@+id/i_mana_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30sp"
+                            android:text="111-1111"
+                            android:textColor="#ecf0f1"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20sp"
+                            android:layout_marginTop="15sp"
+                            android:text="SALDIRI HASARI"
+                            android:textColor="#ecf0f1"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:id="@+id/i_saldiri_hasari_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="35sp"
+                            android:text="11,1-11,1"
+                            android:textColor="#ecf0f1"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="25sp"
+                            android:layout_marginTop="15sp"
+                            android:text="BÜYÜ DİRENCİ"
+                            android:textColor="#ecf0f1"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:id="@+id/i_buyu_direnci_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30sp"
+                            android:text="11,1-11,1"
+                            android:textColor="#ecf0f1"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#34495e"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#27ae60">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="YETENEKLER"
+                            android:textColor="#ecf0f1" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/passive_id"
+                            android:layout_width="0dp"
+                            android:layout_height="65dp"
+                            android:layout_margin="3dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/riotpoint"
+                            app:civ_border_color="@color/colorPrimaryDark"
+                            app:civ_border_width="3dp" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/skill_q_id"
+                            android:layout_width="0dp"
+                            android:layout_height="65dp"
+                            android:layout_margin="3dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/riotpoint"
+                            app:civ_border_color="@color/colorPrimaryDark"
+                            app:civ_border_width="3dp" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/skill_w_id"
+                            android:layout_width="0dp"
+                            android:layout_height="65dp"
+                            android:layout_margin="3dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/riotpoint"
+                            app:civ_border_color="@color/colorPrimaryDark"
+                            app:civ_border_width="3dp" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/skill_e_id"
+                            android:layout_width="0dp"
+                            android:layout_height="65dp"
+                            android:layout_margin="3dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/riotpoint"
+                            app:civ_border_color="@color/colorPrimaryDark"
+                            app:civ_border_width="3dp" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/skill_r_id"
+                            android:layout_width="0dp"
+                            android:layout_height="65dp"
+                            android:layout_margin="3dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/riotpoint"
+                            app:civ_border_color="@color/colorPrimaryDark"
+                            app:civ_border_width="3dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/skill_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/varale"
+                            android:text="Skill name"
+                            android:textColor="#ecf0f1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/skill_description"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/varale"
+                            android:text="Skill Description"
+                            android:textColor="#ecf0f1" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

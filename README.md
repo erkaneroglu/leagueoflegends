@@ -7,7 +7,8 @@
   <img src="https://raw.githubusercontent.com/erkaneroglu/leagueoflegends/master/image/ss2.png" width="375" height="650">
  </p>
  <br>
- <h3> Kullanılan Kütüphaneler </h3>
+ ## Kullanılan Kütüphaneler
+ <hr>
  <ul>
   <li><a href="https://github.com/hdodenhof/CircleImageView">Circle Imageview</a></li>
   <li><a href="https://github.com/square/retrofit">Retrofit</a></li>

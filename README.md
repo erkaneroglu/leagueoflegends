@@ -8,7 +8,6 @@
  </p>
  <br>
  <h3> <b>Kullanılan Kütüphaneler</b> </h3>
- <hr>
  <ul>
   <li><a href="https://github.com/hdodenhof/CircleImageView">Circle Imageview</a></li>
   <li><a href="https://github.com/square/retrofit">Retrofit</a></li>

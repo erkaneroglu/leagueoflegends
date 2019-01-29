@@ -7,7 +7,7 @@
   <img src="https://raw.githubusercontent.com/erkaneroglu/leagueoflegends/master/image/ss2.png" width="375" height="650">
  </p>
  <br>
- ## Kullanılan Kütüphaneler
+ <h3> <b>Kullanılan Kütüphaneler</b> </h3>
  <hr>
  <ul>
   <li><a href="https://github.com/hdodenhof/CircleImageView">Circle Imageview</a></li>

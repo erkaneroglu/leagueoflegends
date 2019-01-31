@@ -9,10 +9,11 @@
  <br>
  <h3> <b>Kullanılan Kütüphaneler</b> </h3>
  <ul>
-  <li><a href="https://github.com/hdodenhof/CircleImageView">Circle Imageview</a></li>
   <li><a href="https://github.com/square/retrofit">Retrofit</a></li>
+  <li><a href="https://github.com/square/okhttp">Okhttp</a></li>
   <li><a href="https://github.com/square/picasso">Picasso</a></li>
+  <li><a href="https://github.com/hdodenhof/CircleImageView">Circle Imageview</a></li>
   <li><a href="https://github.com/bravoborja/ReadMoreTextView">Read More Textview</a></li>
   <li><a href="https://github.com/Hamadakram/Sneaker">Sneaker</a></li>
   <li><a href="https://github.com/facebook/shimmer-android">Shimmer</a></li>
-</ul>
+  </ul>

@@ -1,10 +1,10 @@
 # League of Legends Guide with JSON
 <p align="center">
-  <img src="https://raw.githubusercontent.com/erkaneroglu/leagueoflegends/master/image/ss1.png" width="375" height="650">
-  <img src="https://raw.githubusercontent.com/erkaneroglu/leagueoflegends/master/image/ss5.png" width="375" height="650">
-  <img src="https://raw.githubusercontent.com/erkaneroglu/leagueoflegends/master/image/ss4.png" width="375" height="650">
-  <img src="https://raw.githubusercontent.com/erkaneroglu/leagueoflegends/master/image/ss3.png" width="375" height="650">
-  <img src="https://raw.githubusercontent.com/erkaneroglu/leagueoflegends/master/image/ss2.png" width="375" height="650">
+  <img src="https://raw.githubusercontent.com/erkaneroglu/leagueoflegends/master/image/ss1.png" width="250">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/erkaneroglu/leagueoflegends/master/image/ss5.png" width="250">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/erkaneroglu/leagueoflegends/master/image/ss4.png" width="250">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/erkaneroglu/leagueoflegends/master/image/ss3.png" width="250">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/erkaneroglu/leagueoflegends/master/image/ss2.png" width="250">
  </p>
  <br>
  <h3> <b>Kullanılan Kütüphaneler</b> </h3>
